@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Sans:wght@400;500;600&display=swap");
+@import "reset.css";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: rgb(41, 41, 41);
+}
+
+.shade-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  font-weight: 900;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.shade-main {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.chat-screen {
+  color: white;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.chat-form {
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+
+.chat-input {
+  border: 0;
+  background-color: gray;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.chat-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}
